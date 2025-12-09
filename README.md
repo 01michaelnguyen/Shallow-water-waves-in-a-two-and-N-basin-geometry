@@ -12,6 +12,7 @@ Frequency and basin type| t=0 | t=T/3 | t=2T/3 |
 |Three-basin (aligned), $\omega=0.2179$*|<img src="images/eigenvalue_0.2179_n_3_collinear_frame1_streamfunction-1.png" width=100% height=100%>  |<img src="images/eigenvalue_0.2179_n_3_collinear_frame2_streamfunction-1.png" width=100% height=100%> |<img src="images/eigenvalue_0.2179_n_3_collinear_frame3_streamfunction-1.png" width=100% height=100%>|
 
 *not yet included in the code; will be finalised later.
+
 The dotted lines shows the boundary where the outer basin and the two (or three) inner basins meet, and dotted lines representing circles shows the boundary where the depth becomes flat.
 
 # Using the code
