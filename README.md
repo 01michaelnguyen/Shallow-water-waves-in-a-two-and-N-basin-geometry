@@ -1,5 +1,5 @@
 # Shallow-water-waves-in-a-two-and-N-basin-geometry
-This code visualises (linear) Shallow-water waves in time going around a two-basin geometry reminiscent to a simple Arctic Ocean model using MATLAB. We depict a 2D geometry where each area in the geometry is assigned a depth, say $h$.
+This code visualises (linear) Shallow-water waves in time going around a two-basin geometry reminiscent to a simple Arctic Ocean model using MATLAB. We depict a 2D geometry that is shallowest on the outer basins, and deepest towards the centres of the inner basins, where it remains flat.
 
 This code also permits waves travelling to N-basin geometries also. Below are some plots from a two-basin and three-basin geometry moving in time t=0, T/3, 2T/3, where T is the period of the wave (the time taken for the wave to make one cycle to its original position around the basin). Here are some various modes travelling around different types of geometries.
 
@@ -12,6 +12,7 @@ Frequency and basin type| t=0 | t=T/3 | t=2T/3 |
 |Three-basin (aligned), $\omega=0.2179$*|<img src="images/eigenvalue_0.2179_n_3_collinear_frame1_streamfunction-1.png" width=100% height=100%>  |<img src="images/eigenvalue_0.2179_n_3_collinear_frame2_streamfunction-1.png" width=100% height=100%> |<img src="images/eigenvalue_0.2179_n_3_collinear_frame3_streamfunction-1.png" width=100% height=100%>|
 
 *not yet included in the code; will be finalised later.
+The dotted lines shows the boundary where the outer basin and the two (or three) inner basins meet, and dotted lines representing circles shows the boundary where the depth becomes flat.
 
 # Using the code
 Once the repository is downloaded, open the file "plot_contours_eigenvalues_twobasin_final.m". This plots the waves going around two- and N-basin geometries (using the open source cmocean colourmap to show positive and negative vorticity waves).
