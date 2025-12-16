@@ -1,4 +1,4 @@
-# Shallow-water-waves-in-a-two-and-N-basin-geometry
+# Shallow-water-waves-in-an-Arctic-geometry
 This code visualises (linear) Shallow-water waves in time going around a two-basin geometry reminiscent to a simple Arctic Ocean model using MATLAB. We depict a 2D geometry that is shallowest on the outer basins, and deepest towards the centres of the inner basins, where it remains flat.
 
 This code also permits waves travelling to N-basin geometries also. Below are some plots from a two-basin and three-basin geometry moving in time t=0, T/3, 2T/3, where T is the period of the wave (the time taken for the wave to make one cycle to its original position around the basin). Here are some various modes travelling around different types of geometries.
